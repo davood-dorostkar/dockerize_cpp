@@ -1,8 +1,7 @@
 FROM ubuntu:jammy
-COPY ./GEM_new .
-
+#COPY ./GEM_new .
 RUN apt-get update && \
-    apt-get install gcc g++ cmake make
+    apt-get install -y gcc g++ cmake make
 RUN apt-get update && \
     apt-get install -y \
     build-essential 
