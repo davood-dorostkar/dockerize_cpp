@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  cpp_util:
+  gem:
     build:
       context: .
       dockerfile: Dockerfile
