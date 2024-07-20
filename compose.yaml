@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  cpp_util:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
+    tty: true
+    stdin_open: true
